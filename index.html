@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+bot.patfolios.com</title>
+<style>
+* { font-family: verdana; font-size: 10pt; COLOR: gray; }
+b { font-weight: bold; }
+table { border: 1px solid gray;}
+td { text-align: center; padding: 25;}
+</style>
+</head>
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '100557153720709',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+</body>
+</html>
